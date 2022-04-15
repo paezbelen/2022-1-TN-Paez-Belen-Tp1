@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+/*********************HEADER***********************/
+
+header, main, footer {
+	width: 100%;
+}
+
+body {
+	background-color:#ECEAEA;
+	display: flex;
+	flex-direction: column;
+}
+
+.Nombre {
+    height: 130px;
+    display: flex; 
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#cabecera {
+	background-color: salmon;
+	display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.img {
+	padding-right: 30px;
+}
+
+header h1 {
+	color: white;
+	font-family: "dosis", "sans-serif";
+	font-size: 40px;
+	
+}
+
+header h5 {
+	color:#283845;
+	font-family: "dosis", "sans-serif";
+	font-size: 20px;
+}
+
+@font-face {
+	font-family: "dosis";
+	src: url("Font/Dosis-Regular.ttf") format('truetype');
+	font-weight:normal;
+	font-style: normal;
+}
+
+/*******************INFO***************************/
+
+article {
+    height: 150px;
+	padding-bottom: 30px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.sobreMi {
+	width: 512px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+	text-align: center;
+}
+
+main h3 {
+	color:salmon;
+	font-family: "dosis", "sans-serif";
+	font-weight:900px;
+	font-size: 24px;
+	padding: 10px;
+	padding-bottom: 8px;
+	padding-top: 30px;
+}
+
+h4 {
+	color:#283845;
+	font-family: "dosis", "sans-serif";
+	font-weight:900px;
+	font-size: 20px;
+	padding: 10px;
+	padding-bottom: 8px;
+	padding-top: 0px;
+}
+
+.formacionAcademica {
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.infoPersonal {
+	width: 426px;
+	text-align: right;
+	border-right: solid salmon;
+    padding-right: 35px;
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+}
+
+.academico {
+	width: 390px;
+	padding-left: 35px;
+	display: flex;
+	flex-direction: column;
+	align-content: flex-end;
+		
+	
+}
+
+li, p {
+	color:#283845;
+	font-family: "Raleway", "sans-serif";
+	font-weight:100;
+	font-size: 14px;
+	padding: 10px;
+	padding-bottom: 10px;
+}
+
+.contact {
+	width: 230px;
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.contacto {
+	color:gray;
+	font-family: "Raleway", "sans-serif";
+	font-weight:600;
+	font-size: 12px;
+	padding: 10px;
+	padding-bottom: 3px;
+	
+}
+.contacto2 {
+	color:gray;
+	font-family: "Raleway", "sans-serif";
+	font-weight:100;
+	font-size: 12px;
+	padding: 10px;
+	padding-bottom: 0px;
+
+}
+
+aside {
+	margin-block-end: 100px;
+}
+
+@font-face {
+	font-family: "Raleway";
+	src: url("font 2/Raleway-Regular.ttf") format('truetype');
+	font-weight:normal;
+	font-style: normal;
+}
+
+/*******************IMAGENES***************************/
+
+.fotostp {
+	height: 500px;
+	margin: 0px;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap; 
+	align-items: baseline;
+	align-content: center;
+}
+
+.imgonu, .imglettering, .malika1, .malika2, .malika3, .infografia {
+	padding: 5px;
+}
+
+/*******************FOOTER***************************/
+
+footer {
+    height: 30px;
+	background-color: salmon;
+	color: #eceaea;
+	font-family: "dosis", "sans-serif";
+	font-size: 20px;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-end;
+	justify-content: space-around;
+	}
+h6 {
+	padding-right: 20px;
+}
+	
